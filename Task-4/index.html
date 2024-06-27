@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="inputBox">
+        <div>
+            <button class="operators">AC</button>
+            <button class="operators">DEL</button>
+            <button class="operators">%</button>
+            <button class="operators">/</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operators">*</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operators">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operators">+</button>
+        </div>
+        <div class="button-row">
+            <button class="history-btn">
+                <span class="material-symbols-outlined">
+                    history
+                    </span>
+            </button>
+            <button>0</button>
+            <button>.</button>
+            <button class="eq-btn">=</button>
+        </div>
+        
+        <div class="history-container">
+            <div class="history-header">
+                <span class="close-btn">×</span>
+            </div>
+            <h2 class="history-title"><b>Calculation History</b></h2>
+            <div class="history-list"></div>
+            <button class="clear-history-btn">Clear History</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
